@@ -35,7 +35,7 @@ void AMyDamageObject::NotifyActorBeginOverlap(AActor* OtherActor)
 
 			if (GEngine)
 			{
-				FString Msg = FString::Printf(TEXT("¡Daño recibido! Vida restante: %.1f"), Player->Health);
+				FString Msg = FString::Printf(TEXT("OUCH! DAMAGE RECIEVED! remaining HP: %.1f"), Player->Health);
 				GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Red, Msg);
 			}
 		}

@@ -11,7 +11,7 @@ void AMyBullet::BeginPlay()
 	Super::BeginPlay();
 
 	// Se destruye automáticamente después de 3 segundos
-	SetLifeSpan(3.0f);
+	SetLifeSpan(1.0f);
 }
 
 void AMyBullet::Tick(float DeltaTime)

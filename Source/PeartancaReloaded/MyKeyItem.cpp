@@ -37,7 +37,7 @@ void AMyKeyItem::NotifyActorBeginOverlap(AActor* OtherActor)
 
 			if (GEngine)
 			{
-				GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Green, TEXT("Llave obtenida"));
+				GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Green, TEXT("Key Obtained"));
 			}
 
 			Destroy();

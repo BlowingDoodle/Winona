@@ -41,7 +41,7 @@ void AMyPlayer::OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActor* Othe
 		AMyPlayer::Health -= bullet->Damage;
 		if (Health <= 0)
 		{
-			GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::Red, "Mori");
+			GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::Red, "Destroyed");
 		}
 	}
 }

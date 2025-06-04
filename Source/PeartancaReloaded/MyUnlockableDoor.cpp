@@ -33,7 +33,7 @@ void AMyUnlockableDoor::NotifyActorBeginOverlap(AActor* OtherActor)
 		{
 			if (GEngine)
 			{
-				GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Yellow, TEXT("Puerta abierta"));
+				GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Yellow, TEXT("Door opened"));
 			}
 
 			Destroy();

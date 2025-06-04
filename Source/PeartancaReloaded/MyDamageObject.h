@@ -30,5 +30,5 @@ private:
 
 public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	float DamageAmount = 10.0f;
+	float DamageAmount = 20.0f;
 };

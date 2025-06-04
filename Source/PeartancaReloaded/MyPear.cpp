@@ -30,7 +30,7 @@ void AMyPear::ReceiveDamage(float DamageAmount)
 
 	if (GEngine)
 	{
-		FString Msg = FString::Printf(TEXT("¡Daño recibido! Vida restante: %.1f"), Health);
+		FString Msg = FString::Printf(TEXT("¡DAMAGE RECIEVED! remainingh HP: %.1f"), Health);
 		GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Red, Msg);
 	}
 
@@ -41,6 +41,6 @@ void AMyPear::ReceiveDamage(float DamageAmount)
 			GEngine->AddOnScreenDebugMessage(-1, 3.0f, FColor::Red, TEXT("GAME OVER"));
 		}
 
-		Destroy(); // 💥 Destruye el actor
+		Destroy(); // Destruye el actor
 	}
 }
